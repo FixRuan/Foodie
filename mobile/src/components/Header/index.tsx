@@ -1,8 +1,7 @@
 import React from "react";
-
-import { styles } from "./styles";
 import { Image, Text, View } from "react-native";
 
+import { styles } from "./styles";
 import { logo } from "../../constants/icons";
 
 interface HeaderInterface {
