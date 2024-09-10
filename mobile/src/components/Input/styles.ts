@@ -1,9 +1,9 @@
-import { StyleSheet } from "react-native";
-import { COLORS, FONT_SIZE } from "../../constants/theme";
+import { StyleSheet } from 'react-native'
+import { COLORS, FONT_SIZE } from '../../constants/theme'
 
 export const styles = StyleSheet.create({
   container: {
-    marginBottom: 18,
+    marginBottom: 18
   },
   title: {
     fontSize: FONT_SIZE.md,
@@ -16,6 +16,6 @@ export const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: COLORS.light_gray,
     borderRadius: 4,
-    padding: 8,
+    padding: 8
   }
-});
+})

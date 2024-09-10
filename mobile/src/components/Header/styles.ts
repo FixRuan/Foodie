@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native"
-import { COLORS, FONT_SIZE } from "../../constants/theme";
+import { StyleSheet } from 'react-native'
+import { COLORS, FONT_SIZE } from '../../constants/theme'
 
 export const styles = StyleSheet.create({
   logo: {
@@ -8,11 +8,11 @@ export const styles = StyleSheet.create({
   },
   title: {
     color: COLORS.dark_gray,
-    fontSize: FONT_SIZE.md,
+    fontSize: FONT_SIZE.md
   },
   header: {
-    width: "100%",
-    justifyContent: "center",
-    alignItems: "center"
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center'
   }
-});
+})

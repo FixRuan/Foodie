@@ -1,10 +1,9 @@
-import React from "react"
-import { Text, TouchableOpacity } from "react-native"
+import { Text, TouchableOpacity } from 'react-native'
 
-import { styles } from "./styles"
+import { styles } from './styles'
 
 interface ButtonInterface {
-  text: string,
+  text: string
 }
 
 export function Button({ text }: ButtonInterface) {
