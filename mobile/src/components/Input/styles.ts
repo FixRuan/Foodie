@@ -11,11 +11,11 @@ export const styles = StyleSheet.create({
     marginBottom: 4
   },
   input: {
-    height: 42,
+    width: '100%',
     backgroundColor: COLORS.white,
     borderWidth: 1,
     borderColor: COLORS.light_gray,
-    borderRadius: 4,
-    padding: 8
+    borderRadius: 6,
+    padding: 10
   }
 })

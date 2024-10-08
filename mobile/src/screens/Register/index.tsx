@@ -14,8 +14,8 @@ export function Register() {
 
       <Input label='Nome Completo' />
       <Input label='E-mail' />
-      <Input label='Escolha uma senha' />
-      <Input label='Confirme a senha' />
+      <Input label='Escolha uma senha' password />
+      <Input label='Confirme a senha' password />
 
       <View style={{ marginTop: 24 }}>
         <Button text='Próximo passo' />
