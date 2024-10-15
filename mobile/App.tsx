@@ -1,11 +1,5 @@
-import { Login } from './src/screens/Login'
-import { NextStep } from './src/screens/NextStep'
-import { Register } from './src/screens/Register'
+import { Routes } from './src/routes'
 
 export default function App() {
-  return (
-    <>
-      <NextStep />
-    </>
-  )
+  return <Routes />
 }

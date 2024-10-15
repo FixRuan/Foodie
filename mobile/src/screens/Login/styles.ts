@@ -5,7 +5,8 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingVertical: 52,
-    paddingHorizontal: 52
+    paddingHorizontal: 52,
+    backgroundColor: '#fff'
   },
   inputContainer: {
     marginTop: 58,
