@@ -7,12 +7,17 @@ import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 import { useState } from 'react'
 
-export function Login() {
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
+export function Login({ navigation }: any) {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
   function login() {
     console.log(email, password)
+  }
+
+  function handleRegister() {
+    navigation.navigate('register')
   }
 
   return (
@@ -26,7 +31,7 @@ export function Login() {
 
       <Button text='Acessar' onPress={login} />
 
-      <TouchableOpacity style={styles.createAccountContainer} activeOpacity={0.5}>
+      <TouchableOpacity style={styles.createAccountContainer} activeOpacity={0.5} onPress={handleRegister}>
         <Text style={styles.createAccountText}>Criar minha conta</Text>
       </TouchableOpacity>
     </View>

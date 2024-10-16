@@ -6,11 +6,12 @@ import { Header } from '../../components/Header'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 
-export function NextStep() {
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
+export function NextStep({ navigation }: any) {
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
-        <TouchableOpacity activeOpacity={0.6}>
+        <TouchableOpacity activeOpacity={0.6} onPress={() => navigation.goBack()}>
           <Ionicons name='arrow-back-outline' size={32} color={'#5D6275'} />
         </TouchableOpacity>
 

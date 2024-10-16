@@ -4,7 +4,7 @@ import { styles } from './styles'
 
 interface ButtonInterface {
   text: string
-  onPress: () => void
+  onPress?: () => void
 }
 
 export function Button({ text, onPress }: ButtonInterface) {

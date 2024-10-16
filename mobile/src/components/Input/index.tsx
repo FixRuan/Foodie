@@ -5,11 +5,11 @@ import { styles } from './styles'
 interface InputProps {
   label: string
   password?: boolean
-  onChangeText: (text: string) => void
-  value: string
+  onChangeText?: (text: string) => void
+  value?: string
 }
 
-export function Input({ label, password = false, onChangeText, value }: InputProps) {
+export function Input({ label, password = false, onChangeText = () => {}, value }: InputProps) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{label}</Text>

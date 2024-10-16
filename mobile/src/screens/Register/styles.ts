@@ -9,6 +9,8 @@ export const styles = StyleSheet.create({
     backgroundColor: '#fff'
   },
   headerContainer: {
+    width: '80%',
+    flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 52
